@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4898986D264A41D000294DD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4898986C264A41D000294DD7 /* AppDelegate.m */; };
-		48989873264A41D000294DD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48989872264A41D000294DD7 /* ViewController.m */; };
-		48989876264A41D000294DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48989874264A41D000294DD7 /* Main.storyboard */; };
-		48989878264A41D200294DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48989877264A41D200294DD7 /* Assets.xcassets */; };
-		4898987B264A41D200294DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48989879264A41D200294DD7 /* LaunchScreen.storyboard */; };
-		4898987E264A41D200294DD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4898987D264A41D200294DD7 /* main.m */; };
 		48989894264A515300294DD7 /* UIButton+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 48989888264A515200294DD7 /* UIButton+FixScreenFont.m */; };
 		48989895264A515300294DD7 /* NSLayoutConstraint+BSIBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 48989889264A515200294DD7 /* NSLayoutConstraint+BSIBDesignable.m */; };
 		48989896264A515300294DD7 /* UITextField+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4898988A264A515200294DD7 /* UITextField+FixScreenFont.m */; };
@@ -24,15 +18,6 @@
 
 /* Begin PBXFileReference section */
 		48989868264A41D000294DD7 /* FSCommonKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCommonKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4898986B264A41D000294DD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4898986C264A41D000294DD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48989871264A41D000294DD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48989872264A41D000294DD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		48989875264A41D000294DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48989877264A41D200294DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4898987A264A41D200294DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4898987C264A41D200294DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4898987D264A41D200294DD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48989887264A420000294DD7 /* FSGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGlobal.h; sourceTree = "<group>"; };
 		48989888264A515200294DD7 /* UIButton+FixScreenFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FixScreenFont.m"; sourceTree = "<group>"; };
 		48989889264A515200294DD7 /* NSLayoutConstraint+BSIBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+BSIBDesignable.m"; sourceTree = "<group>"; };
@@ -46,7 +31,6 @@
 		48989891264A515300294DD7 /* UITextView+FixScreenFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FixScreenFont.m"; sourceTree = "<group>"; };
 		48989892264A515300294DD7 /* UIView+Float.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Float.m"; sourceTree = "<group>"; };
 		48989893264A515300294DD7 /* UITextField+FixScreenFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FixScreenFont.h"; sourceTree = "<group>"; };
-		4898989B264A518E00294DD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4898989C264A51D500294DD7 /* FSCommonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCommonKit.h; sourceTree = "<group>"; };
 		4898989D264A537400294DD7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		4898989E264A537400294DD7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
@@ -83,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				48989884264A41D900294DD7 /* Class */,
-				48989886264A41E700294DD7 /* Demo */,
 			);
 			path = FSCommonKit;
 			sourceTree = "<group>";
@@ -109,23 +92,6 @@
 				4898989E264A537400294DD7 /* UIColor+Hex.m */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		48989886264A41E700294DD7 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				4898986B264A41D000294DD7 /* AppDelegate.h */,
-				4898986C264A41D000294DD7 /* AppDelegate.m */,
-				48989871264A41D000294DD7 /* ViewController.h */,
-				48989872264A41D000294DD7 /* ViewController.m */,
-				48989874264A41D000294DD7 /* Main.storyboard */,
-				48989877264A41D200294DD7 /* Assets.xcassets */,
-				48989879264A41D200294DD7 /* LaunchScreen.storyboard */,
-				4898987C264A41D200294DD7 /* Info.plist */,
-				4898987D264A41D200294DD7 /* main.m */,
-				4898989B264A518E00294DD7 /* PrefixHeader.pch */,
-			);
-			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4898987B264A41D200294DD7 /* LaunchScreen.storyboard in Resources */,
-				48989878264A41D200294DD7 /* Assets.xcassets in Resources */,
-				48989876264A41D000294DD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,11 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48989873264A41D000294DD7 /* ViewController.m in Sources */,
 				48989897264A515300294DD7 /* UILabel+FixScreenFont.m in Sources */,
-				4898986D264A41D000294DD7 /* AppDelegate.m in Sources */,
 				48989899264A515300294DD7 /* UIView+Float.m in Sources */,
-				4898987E264A41D200294DD7 /* main.m in Sources */,
 				48989898264A515300294DD7 /* UITextView+FixScreenFont.m in Sources */,
 				48989896264A515300294DD7 /* UITextField+FixScreenFont.m in Sources */,
 				48989895264A515300294DD7 /* NSLayoutConstraint+BSIBDesignable.m in Sources */,
@@ -211,25 +171,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		48989874264A41D000294DD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48989875264A41D000294DD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48989879264A41D200294DD7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4898987A264A41D200294DD7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4898987F264A41D200294DD7 /* Debug */ = {
