@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/ForgetSou/FSCommonKit'
     s.author = { 'ForgetSou' => 'johnvertios@gmail.com' }
     s.source = { :git => 'https://github.com/ForgetSou/FSCommonKit.git', :tag => s.version }
-    s.summary = 'ForgetSou CommonKit'
-    s.description = 'ForgetSou CommonKit'
+    s.summary = 'common tool'
+    s.description = 'ForgetSou CommonKit common tool, eg: device system color fitscreen'
 
     s.requires_arc = true
 
