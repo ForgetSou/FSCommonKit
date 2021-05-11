@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     s.author = { 'ForgetSou' => 'johnvertios@gmail.com' }
     s.source = { :git => 'https://github.com/ForgetSou/FSCommonKit.git', :tag => s.version }
     s.summary = 'common tool'
-    s.description = 'ForgetSou CommonKit common tool, eg: device system color fitscreen'
+    s.description = 'ForgetSou CommonKit common tool, eg: device system color fit screen'
 
     s.requires_arc = true
 
-    s.source_files = 'FSCommonKit/Class//**/*'
+    s.source_files = 'FSCommonKit/Class/*.{h,m}'
 
 end

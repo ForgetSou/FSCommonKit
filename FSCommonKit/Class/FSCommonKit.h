@@ -10,4 +10,10 @@
 
 #import "FSGlobal.h"
 
+#import "UIView+Float.h"
+#import "UILabel+FixScreenFont.h"
+#import "UIButton+FixScreenFont.h"
+#import "UITextView+FixScreenFont.h"
+#import "UITextField+FixScreenFont.h"
+
 #endif /* FSCommonKit_h */

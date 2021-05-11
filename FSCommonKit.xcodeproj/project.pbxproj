@@ -92,18 +92,23 @@
 			isa = PBXGroup;
 			children = (
 				4898989C264A51D500294DD7 /* FSCommonKit.h */,
-				4898989A264A515A00294DD7 /* Category */,
-				48989885264A41DF00294DD7 /* Macro */,
+				48989887264A420000294DD7 /* FSGlobal.h */,
+				4898988E264A515300294DD7 /* UIView+Float.h */,
+				48989892264A515300294DD7 /* UIView+Float.m */,
+				4898988B264A515300294DD7 /* NSLayoutConstraint+BSIBDesignable.h */,
+				48989889264A515200294DD7 /* NSLayoutConstraint+BSIBDesignable.m */,
+				4898988F264A515300294DD7 /* UIButton+FixScreenFont.h */,
+				48989888264A515200294DD7 /* UIButton+FixScreenFont.m */,
+				48989890264A515300294DD7 /* UILabel+FixScreenFont.h */,
+				4898988D264A515300294DD7 /* UILabel+FixScreenFont.m */,
+				48989893264A515300294DD7 /* UITextField+FixScreenFont.h */,
+				4898988A264A515200294DD7 /* UITextField+FixScreenFont.m */,
+				4898988C264A515300294DD7 /* UITextView+FixScreenFont.h */,
+				48989891264A515300294DD7 /* UITextView+FixScreenFont.m */,
+				4898989D264A537400294DD7 /* UIColor+Hex.h */,
+				4898989E264A537400294DD7 /* UIColor+Hex.m */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		48989885264A41DF00294DD7 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				48989887264A420000294DD7 /* FSGlobal.h */,
-			);
-			path = Macro;
 			sourceTree = "<group>";
 		};
 		48989886264A41E700294DD7 /* Demo */ = {
@@ -121,51 +126,6 @@
 				4898989B264A518E00294DD7 /* PrefixHeader.pch */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		4898989A264A515A00294DD7 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				489898A2264A53A100294DD7 /* View */,
-				489898A1264A538900294DD7 /* FixScreen */,
-				489898A0264A538100294DD7 /* Color */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		489898A0264A538100294DD7 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				4898989D264A537400294DD7 /* UIColor+Hex.h */,
-				4898989E264A537400294DD7 /* UIColor+Hex.m */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
-		489898A1264A538900294DD7 /* FixScreen */ = {
-			isa = PBXGroup;
-			children = (
-				4898988B264A515300294DD7 /* NSLayoutConstraint+BSIBDesignable.h */,
-				48989889264A515200294DD7 /* NSLayoutConstraint+BSIBDesignable.m */,
-				4898988F264A515300294DD7 /* UIButton+FixScreenFont.h */,
-				48989888264A515200294DD7 /* UIButton+FixScreenFont.m */,
-				48989890264A515300294DD7 /* UILabel+FixScreenFont.h */,
-				4898988D264A515300294DD7 /* UILabel+FixScreenFont.m */,
-				48989893264A515300294DD7 /* UITextField+FixScreenFont.h */,
-				4898988A264A515200294DD7 /* UITextField+FixScreenFont.m */,
-				4898988C264A515300294DD7 /* UITextView+FixScreenFont.h */,
-				48989891264A515300294DD7 /* UITextView+FixScreenFont.m */,
-			);
-			path = FixScreen;
-			sourceTree = "<group>";
-		};
-		489898A2264A53A100294DD7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4898988E264A515300294DD7 /* UIView+Float.h */,
-				48989892264A515300294DD7 /* UIView+Float.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
