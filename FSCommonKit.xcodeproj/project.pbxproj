@@ -82,8 +82,8 @@
 		4898986A264A41D000294DD7 /* FSCommonKit */ = {
 			isa = PBXGroup;
 			children = (
-				48989886264A41E700294DD7 /* Demo */,
 				48989884264A41D900294DD7 /* Class */,
+				48989886264A41E700294DD7 /* Demo */,
 			);
 			path = FSCommonKit;
 			sourceTree = "<group>";
