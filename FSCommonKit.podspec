@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/ForgetSou/FSCommonKit'
     s.author = { 'ForgetSou' => 'johnvertios@gmail.com' }
     s.source = { :git => 'https://github.com/ForgetSou/FSCommonKit.git', :tag => s.version }
-    s.summary = ''
-    s.description = ''
+    s.summary = 'ForgetSou CommonKit'
+    s.description = 'ForgetSou CommonKit'
 
     s.requires_arc = true
 
