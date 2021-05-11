@@ -1,9 +1,8 @@
 //
 //  UITextField+FixScreenFont.h
-//  ZD
+//  FSCommonKit
 //
-//  Created by forget on 2019/9/29.
-//  Copyright © 2019 ZhiDou. All rights reserved.
+//  Created by Forget on 2021/5/11.
 //
 
 #import <UIKit/UIKit.h>

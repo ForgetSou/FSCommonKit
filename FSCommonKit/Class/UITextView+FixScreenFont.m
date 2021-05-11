@@ -1,12 +1,12 @@
 //
 //  UITextView+FixScreenFont.m
-//  ZDVoiceInput
+//  FSCommonKit
 //
-//  Created by forget on 2020/9/25.
-//  Copyright © 2020 forget. All rights reserved.
+//  Created by Forget on 2021/5/11.
 //
 
 #import "UITextView+FixScreenFont.h"
+#import "FSGlobal.h"
 
 @implementation UITextView (FixScreenFont)
 

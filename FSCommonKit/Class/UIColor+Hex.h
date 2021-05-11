@@ -1,9 +1,8 @@
 //
 //  UIColor+Hex.h
-//  ZDNAS
-//
-//  Created by 皮针针 on 2019/2/22.
-//  Copyright © 2019年 TWS. All rights reserved.
+//  FSCommonKit
+
+//  Created by Forget on 2021/5/11.
 //
 
 #import <UIKit/UIKit.h>

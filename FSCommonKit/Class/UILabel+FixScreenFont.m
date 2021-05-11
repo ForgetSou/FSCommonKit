@@ -1,12 +1,12 @@
 //
 //  UILabel+FixScreenFont.m
-//  FDS
+//  FSCommonKit
 //
-//  Created by forget on 2019/8/14.
-//  Copyright © 2019 ZhiDou. All rights reserved.
+//  Created by Forget on 2021/5/11.
 //
 
 #import "UILabel+FixScreenFont.h"
+#import "FSGlobal.h"
 
 @implementation UILabel (FixScreenFont)
 - (void)setFixWidthScreenFont:(float)fixWidthScreenFont{

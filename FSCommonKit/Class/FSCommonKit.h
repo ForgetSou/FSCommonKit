@@ -9,7 +9,6 @@
 #define FSCommonKit_h
 
 #import "FSGlobal.h"
-
 #import "UIView+Float.h"
 #import "UILabel+FixScreenFont.h"
 #import "UIButton+FixScreenFont.h"
