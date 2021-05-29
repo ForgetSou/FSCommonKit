@@ -1,0 +1,12 @@
+# 指明依赖库的来源地址
+source  'https://github.com/CocoaPods/Specs.git'
+#指定版本控制
+platform :ios, '9.0'
+#忽略cocopods库里所有的警告
+inhibit_all_warnings!
+
+target 'FSCommonKitDemo' do
+  use_frameworks!
+  pod 'AFNetworking'
+  pod 'FSCommonKit',:path => '../FSCommonKit'
+end

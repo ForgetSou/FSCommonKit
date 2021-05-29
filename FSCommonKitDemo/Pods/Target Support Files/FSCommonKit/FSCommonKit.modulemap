@@ -1,0 +1,6 @@
+framework module FSCommonKit {
+  umbrella header "FSCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

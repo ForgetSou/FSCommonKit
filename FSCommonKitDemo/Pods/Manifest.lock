@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FSCommonKit (1.0.0):
+    - FSCommonKit/Color (= 1.0.0)
+    - FSCommonKit/FixScreen (= 1.0.0)
+    - FSCommonKit/March (= 1.0.0)
+    - FSCommonKit/View (= 1.0.0)
+  - FSCommonKit/Color (1.0.0)
+  - FSCommonKit/FixScreen (1.0.0)
+  - FSCommonKit/March (1.0.0)
+  - FSCommonKit/View (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FSCommonKit (from `../FSCommonKit`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  FSCommonKit:
+    :path: "../FSCommonKit"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FSCommonKit: 8475e4648b6f2eaada682d2fa736c7c077ccae31
+
+PODFILE CHECKSUM: 0a142b6f94535fea6a1881ca6676acc410dd5736
+
+COCOAPODS: 1.10.1
