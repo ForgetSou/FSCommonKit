@@ -1,9 +1,16 @@
 //
 //  FSCommonKit.h
-//  FSCommonKit
+//  Pods
 //
-//  Created by Forget on 2021/5/11.
+//  Author:         ForgetSou
+//  E-Mail:         forgetsou.pi@powervision.me
+//  Company:        PowerVision
 //
+//  2021/5/29: File created.
+//
+//  ꧁༺ཌ༈༒༈ད༻꧂   ꧁༺❀ൢ༒ൢ❀༻꧂
+//
+    
 
 #ifndef FSCommonKit_h
 #define FSCommonKit_h

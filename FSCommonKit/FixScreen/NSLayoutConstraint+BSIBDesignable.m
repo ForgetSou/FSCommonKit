@@ -12,7 +12,7 @@
 
 @implementation NSLayoutConstraint (BSIBDesignable)
 
-- (BOOL)adapterScreen{
+- (BOOL)adapterScreen {
     NSNumber *number = objc_getAssociatedObject(self, AdapterScreenKey);
     return number.boolValue;
 }
