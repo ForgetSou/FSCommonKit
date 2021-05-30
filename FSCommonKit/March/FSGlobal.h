@@ -61,12 +61,15 @@
 /// 字典
 #define kDictionaryIsEmpty(dictionary)      (dictionary == nil || [dictionary isKindOfClass:[NSNull class]] || dictionary.allKeys.count == 0)
 /// 对象
-#define kObjectIsEmpty(object)              (object == nil||[object isKindOfClass:[NSNull class]]||([object respondsToSelector:@selector(length)] && [(NSData *)object length] == 0)|| ([object respondsToSelector:@selector(count)] && [(NSArray *)object count] == 0))
+#define kObjectIsEmpty(object)              (object == nil || [object isKindOfClass:[NSNull class]] || ([object             respondsToSelector:@selector(length)] && [(NSData *)object length] == 0)|| ([object respondsToSelector:@selector(count)] && [(NSArray *)object count] == 0))
 
 #pragma mark - ===================== 字体 =====================
+/// 系统默认字体
 #define kSystemFont(x)                      [UIFont systemFontOfSize:x]
+/// 系统粗体
 #define kBoldFont(x)                        [UIFont boldSystemFontOfSize:x]
-#define kMediumFont(x)                      [UIFont italicSystemFontOfSize:x]
+/// 系统斜体
+#define kItalicFont(x)                      [UIFont italicSystemFontOfSize:x]
 
 #pragma mark - ===================== 系统 =====================
 // APP对象 （单例对象）
@@ -93,7 +96,7 @@
 
 #pragma mark - ===================== 图片 =====================
 // 加载图片
-#define kImage(imageName)                   [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+#define kImage(imageName)                   [UIImage imageNamed:imageName]
 #define kResourcePNGImage(NAME)             [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(NAME) ofType:@"png"]]
 #define kResourceJPGImage(NAME)             [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(NAME) ofType:@"jpg"]]
 #define kResourceImage(NAME, EXT)           [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(NAME) ofType:(EXT)]]
@@ -103,7 +106,8 @@
 #define kStoryBoardVC(name, identifier)     [[UIStoryboard storyboardWithName:(name) bundle:nil] instantiateViewControllerWithIdentifier:identifier]
 // TableView
 #define kRegisterNibTV(tableView, cell, identifier)\
-            [tableView registerNib:[UINib nibWithNibName:NSStringFromClass([cell class]) bundle:nil] forCellReuseIdentifier:identifier]
+            [tableView registerNib:[UINib nibWithNibName:NSStringFromClass([cell class]) bundle:nil]\
+                                  forCellReuseIdentifier:identifier]
 
 #define kRegisterClassTV(tableView, cell, identifier)\
             [tableView registerClass:[cell Class] forCellReuseIdentifier:identifier]
