@@ -14,15 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FSCommonKit (1.0.1):
-    - FSCommonKit/Color (= 1.0.1)
-    - FSCommonKit/FixScreen (= 1.0.1)
-    - FSCommonKit/March (= 1.0.1)
-    - FSCommonKit/View (= 1.0.1)
-  - FSCommonKit/Color (1.0.1)
-  - FSCommonKit/FixScreen (1.0.1)
-  - FSCommonKit/March (1.0.1)
-  - FSCommonKit/View (1.0.1)
+  - FSCommonKit (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking
@@ -38,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  FSCommonKit: 6a2a7dee613593676385388c18565b1d47ad0ef7
+  FSCommonKit: 6c051d33dbc5491f7d74821dcedd85be9b9242d2
 
 PODFILE CHECKSUM: 0a142b6f94535fea6a1881ca6676acc410dd5736
 

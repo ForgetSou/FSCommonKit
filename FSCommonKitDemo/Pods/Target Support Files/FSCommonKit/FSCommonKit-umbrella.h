@@ -10,13 +10,13 @@
 #endif
 #endif
 
-#import "FSCommonKit.h"
 #import "UIColor+Hex.h"
 #import "NSLayoutConstraint+BSIBDesignable.h"
 #import "UIButton+FixScreenFont.h"
 #import "UILabel+FixScreenFont.h"
 #import "UITextField+FixScreenFont.h"
 #import "UITextView+FixScreenFont.h"
+#import "FSCommonKit.h"
 #import "FSGlobal.h"
 #import "UIView+Float.h"
 

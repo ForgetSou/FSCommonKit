@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BBAF7CE93CEC34D379FD3FED80BE92 /* FSCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62CC4B057032E4205F156A6E93E3CE4 /* FSCommonKit-dummy.m */; };
 		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A1DE062EA1B1268A816F207E1EABB7 /* UITextField+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF80596A32C53C5DC250C3AA6B58571 /* UITextField+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BC7555805AB4B129322A8F602EDEF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0C834DBE73C7D78BD061B3086C183097 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1142DF0D5D9BF52E0FA8ED7A4ED4ABE8 /* Pods-FSCommonKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4490BA9BD9742886AC6D6296402F0 /* Pods-FSCommonKitDemo-dummy.m */; };
 		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16F34CD3D543B9370EDFF3FF44E39B85 /* FSGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3B9AD48603A9CAB788DF566CF7C113 /* FSGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F0D33DE75D07121C42F81A02E67FF2 /* FSCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5D015A66CE5BD9C3CD33C74995380E /* FSCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1907C523E9F1D07CC62E7F11FBF3277A /* UITextView+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB6AA68A2F34BA693B5235EDDD0333 /* UITextView+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21C2EE3E034823EF87943348F7311130 /* UIView+Float.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DFD442AA0C8B947F7576E418B38F01 /* UIView+Float.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2942E048B4963CFE54A30EFF58720AB9 /* UITextField+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5F28B8ABCA59EAB14D27B0903A4508 /* UITextField+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3758C7466CF4539520FE9ECD024E86A8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38EC7F333F011F4A19AA9ACCF7044427 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -23,59 +28,54 @@
 		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41EFE08C4F6813F38694895A0CEB4B75 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4414B06D0B206B644E21B1C9A9DBA189 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */; };
-		442AFF713F6AA13324197B50454FF205 /* UIButton+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5328A7A627074CC0B65F51A3A44725E4 /* UIButton+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46E703F09BF1ED2C5BD0F352A81CD767 /* UILabel+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C64F85BA4E797E8EEE12907F2C207B9A /* UILabel+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AF6872FD9F1D4EB039935D17EDA6BBC /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4F890A06C819970F81D03E1B13C53F8D /* UITextView+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACC1E45EE1F5F57056D0BFD0695F2D8 /* UITextView+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50FAFE221CB7C03ED559F0BC9FC17A03 /* FSCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3B532D3C1E78CD4492D1832EF52A48 /* FSCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54847A5824083E01390A5BE1478C7B5A /* UILabel+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A05BA94F3C83677072D027828F408B /* UILabel+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		502425779F147E36D0BC9DB922CE4B44 /* UIButton+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B33A7165B3A82C0740C45A279072E0A /* UIButton+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5315957A8221E1C74D8BA95FD2712F30 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524ACFCC2423E01FC42A9A6CB77689C /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		592425272E3EC993280618EF34057397 /* UITextView+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 92312A3B15F6F2ED76ADBEAF0D568914 /* UITextView+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		61616674F901EA34266AFD3C6C68DAA8 /* NSLayoutConstraint+BSIBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B1F8AF106AEB3D9E645C3F6B837DED /* NSLayoutConstraint+BSIBDesignable.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6257220AAE6E89D07B2D527F33CB6BD7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65260F75CDAFDF23E731A5E01864DAF8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		672CAADDD8CC05ECC7B19BE0D5C7E2DB /* UIView+Float.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D547F49043D15EF353A4F1958E6719 /* UIView+Float.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B79740DAA58F6A66DA67D6D593943C4 /* NSLayoutConstraint+BSIBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = E65FC5E21AB14155C85C9960563E1E18 /* NSLayoutConstraint+BSIBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85F7A74840C60B92B102818F5867EBAE /* NSLayoutConstraint+BSIBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = 524A9EAFC69EC1F3CF8245FBA1BEF529 /* NSLayoutConstraint+BSIBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		867BD5470441E178EF688B518FECA798 /* UITextField+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9330BF3020A5D86E4DBB95353B3823DE /* UITextField+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A58AD5070D5BB27AF95F3F5ABAFE0F /* UILabel+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A16226F1A4B39BEA805D0F90D6BA8 /* UILabel+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FEC5F96047F7CE22554358CDD29968D /* FSGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A99870F080E42440420B5EC95FAFC3 /* FSGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91A444FF2335915A61258FE55D9944E5 /* UITextField+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F659BA840BFDC129E4D67E43CB08940E /* UITextField+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		936F8CE3464BA409C30E9E3012E777B7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 916C74BB3102C30237E17419869C9342 /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9F5D0D62AD2815F0F7939809D9E3188C /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B162894B0AD84ACE556CA5C4CD25D383 /* UILabel+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4D0D85D4E3FF4568B231E34F7B2453 /* UILabel+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A96E5071F1D5D86C2BF19C2889AD4C /* FSCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D759F76D623CB80E9BF0BBD64395BC8 /* FSCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC2E789DCD091C33A5CAA55FDFA9277C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BF6960D26343F37D14AFD51EA87A4C6F /* Pods-FSCommonKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF995DC41820654A30C0E887988EF5C /* Pods-FSCommonKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C390D8B198C2E9B58CBEC9D0DDEA9BF8 /* NSLayoutConstraint+BSIBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F0D045F95AEAB48648DACC16010A70 /* NSLayoutConstraint+BSIBDesignable.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C561328EF1797DF65E9754D04E4CDF5D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C56C490ACE5A8470D5655C6170509CF0 /* UIView+Float.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EEF429ED002DE8D8C8455990EFB88C /* UIView+Float.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C62D307E39A5EF589D1CDE5CB046A01B /* UIView+Float.h in Headers */ = {isa = PBXBuildFile; fileRef = 575D0E2CEC5FB176A8C3054A15543C40 /* UIView+Float.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C909EB40C7B98E163D292FA640C23F88 /* UITextView+FixScreenFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A4A299F5B26CFE5729CF72BFD38111 /* UITextView+FixScreenFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBCB502E3B587D7A695E662D595212E /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B26135CE0BDBFD66E4EFB43BEE64BCD /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D012018DB42F268DDF217901DE751890 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D88E67121CD25E3B6DBC23E674D5073C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DA3488EC878C915F6603602F9A6A7533 /* FSCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283AD4F56E7FC0C0BB060836A218383 /* FSCommonKit-dummy.m */; };
 		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5109813529D2B2D996DFB8F0C2BAD9 /* FSCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 750245F9B78EFC43C4DC5FFA10905091 /* FSCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA3243D94EB83EBFDAB661D0534A0BF /* UIButton+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0891EB727CF77AC6F38DF97C50F63B91 /* UIButton+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EF9740377FCCBF23835184237188FF65 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F311BA6778F807CACDB2085F2A5E6F66 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F465C3E74AFB8E8153E5EF32CE3C7036 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE56D92A69975D914338ABB7000646F /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5D8C51BE22DE7C9BE73FF59EC820450 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F74DAD967499AA50D7925A5DA7DFC481 /* UIButton+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E17E7097159C0A113852F5BBF2D443 /* UIButton+FixScreenFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A6C0EED8F88DEB22BC143A99B6BD4A6 /* PBXContainerItemProxy */ = {
+		159A5ACABA10599B27C3486B8311E95F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		B407B5D270C115EA95966A988D03F516 /* PBXContainerItemProxy */ = {
+		EABB623D3BFEC8FB81685F00DE1A5F93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -86,56 +86,54 @@
 
 /* Begin PBXFileReference section */
 		00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		0283AD4F56E7FC0C0BB060836A218383 /* FSCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCommonKit-dummy.m"; sourceTree = "<group>"; };
-		032361D8DFC39C5BB227196DC8A63F51 /* FSCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCommonKit.modulemap; sourceTree = "<group>"; };
+		0524ACFCC2423E01FC42A9A6CB77689C /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		0891EB727CF77AC6F38DF97C50F63B91 /* UIButton+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FixScreenFont.m"; sourceTree = "<group>"; };
+		0BE7F8D0EFEB3F35B2CB6F0DC3FDBE82 /* FSCommonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCommonKit.debug.xcconfig; sourceTree = "<group>"; };
+		0D759F76D623CB80E9BF0BBD64395BC8 /* FSCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCommonKit.h; path = FSCommonKit/FSCommonKit.h; sourceTree = "<group>"; };
 		0FD4490BA9BD9742886AC6D6296402F0 /* Pods-FSCommonKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSCommonKitDemo-dummy.m"; sourceTree = "<group>"; };
 		14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		161EB05420E1C450995150435DE76F17 /* FSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		196A84D2A3E8A2F42D56A78682C2752D /* Pods-FSCommonKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSCommonKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1B26135CE0BDBFD66E4EFB43BEE64BCD /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2F4D0D85D4E3FF4568B231E34F7B2453 /* UILabel+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+FixScreenFont.h"; sourceTree = "<group>"; };
 		31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		36B1F8AF106AEB3D9E645C3F6B837DED /* NSLayoutConstraint+BSIBDesignable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+BSIBDesignable.m"; sourceTree = "<group>"; };
 		37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3B33A7165B3A82C0740C45A279072E0A /* UIButton+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+FixScreenFont.h"; sourceTree = "<group>"; };
 		3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		405205E70C9D8502B0EC88BA6288C2E1 /* Pods-FSCommonKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSCommonKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		431C22C3AA07A28BFF2D9881131D472B /* Pods-FSCommonKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSCommonKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		434B5B7B0ABFA782A9190A58073914DE /* Pods_FSCommonKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSCommonKitDemo.framework; path = "Pods-FSCommonKitDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		4F5D015A66CE5BD9C3CD33C74995380E /* FSCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCommonKit-umbrella.h"; sourceTree = "<group>"; };
+		4F9A16226F1A4B39BEA805D0F90D6BA8 /* UILabel+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FixScreenFont.m"; sourceTree = "<group>"; };
 		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		524A9EAFC69EC1F3CF8245FBA1BEF529 /* NSLayoutConstraint+BSIBDesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+BSIBDesignable.h"; path = "FixScreen/NSLayoutConstraint+BSIBDesignable.h"; sourceTree = "<group>"; };
-		5328A7A627074CC0B65F51A3A44725E4 /* UIButton+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FixScreenFont.h"; path = "FixScreen/UIButton+FixScreenFont.h"; sourceTree = "<group>"; };
 		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		575D0E2CEC5FB176A8C3054A15543C40 /* UIView+Float.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Float.h"; path = "View/UIView+Float.h"; sourceTree = "<group>"; };
-		5E3B532D3C1E78CD4492D1832EF52A48 /* FSCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCommonKit-umbrella.h"; sourceTree = "<group>"; };
+		56FB6AA68A2F34BA693B5235EDDD0333 /* UITextView+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FixScreenFont.m"; sourceTree = "<group>"; };
 		648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		6ACC1E45EE1F5F57056D0BFD0695F2D8 /* UITextView+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+FixScreenFont.h"; path = "FixScreen/UITextView+FixScreenFont.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74A05BA94F3C83677072D027828F408B /* UILabel+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FixScreenFont.m"; path = "FixScreen/UILabel+FixScreenFont.m"; sourceTree = "<group>"; };
-		750245F9B78EFC43C4DC5FFA10905091 /* FSCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSCommonKit.h; sourceTree = "<group>"; };
 		75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		7A3B9AD48603A9CAB788DF566CF7C113 /* FSGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSGlobal.h; path = March/FSGlobal.h; sourceTree = "<group>"; };
+		78DFD442AA0C8B947F7576E418B38F01 /* UIView+Float.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Float.h"; sourceTree = "<group>"; };
+		7DC82FBF0F5D1D7BF483518EC01120ED /* FSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F755DCC786A0313992F31363D889948 /* Pods-FSCommonKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSCommonKitDemo.modulemap"; sourceTree = "<group>"; };
 		842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		8A6E1D6C4477EB67BDE87BFFDEAB1C04 /* FSCommonKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCommonKit.debug.xcconfig; sourceTree = "<group>"; };
-		8A84807898E2D9F8AD7861AD1197EAC0 /* FSCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCommonKit.release.xcconfig; sourceTree = "<group>"; };
 		8AF995DC41820654A30C0E887988EF5C /* Pods-FSCommonKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSCommonKitDemo-umbrella.h"; sourceTree = "<group>"; };
 		8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		8EE56D92A69975D914338ABB7000646F /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Color/UIColor+Hex.h"; sourceTree = "<group>"; };
-		916C74BB3102C30237E17419869C9342 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Color/UIColor+Hex.m"; sourceTree = "<group>"; };
-		92312A3B15F6F2ED76ADBEAF0D568914 /* UITextView+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+FixScreenFont.m"; path = "FixScreen/UITextView+FixScreenFont.m"; sourceTree = "<group>"; };
+		9187E65A5B6EC39580567CF216CAEB53 /* FSCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCommonKit.release.xcconfig; sourceTree = "<group>"; };
 		929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		9330BF3020A5D86E4DBB95353B3823DE /* UITextField+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FixScreenFont.h"; path = "FixScreen/UITextField+FixScreenFont.h"; sourceTree = "<group>"; };
-		94E17E7097159C0A113852F5BBF2D443 /* UIButton+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FixScreenFont.m"; path = "FixScreen/UIButton+FixScreenFont.m"; sourceTree = "<group>"; };
+		93E04F6A721A840637C60DBB4E6D128D /* FSCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCommonKit-prefix.pch"; sourceTree = "<group>"; };
+		99A99870F080E42440420B5EC95FAFC3 /* FSGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSGlobal.h; sourceTree = "<group>"; };
 		9A53850AADF023A296BD5F95D3B94EC5 /* Pods-FSCommonKitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSCommonKitDemo-Info.plist"; sourceTree = "<group>"; };
 		9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -148,19 +146,22 @@
 		BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		C64F85BA4E797E8EEE12907F2C207B9A /* UILabel+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FixScreenFont.h"; path = "FixScreen/UILabel+FixScreenFont.h"; sourceTree = "<group>"; };
+		C62CC4B057032E4205F156A6E93E3CE4 /* FSCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCommonKit-dummy.m"; sourceTree = "<group>"; };
 		CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		D4D5766C415150A2C7D44C1A4E63DAB9 /* FSCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCommonKit-Info.plist"; sourceTree = "<group>"; };
-		D639B709C0C4438A2B0FDCC55CDE1614 /* FSCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCommonKit-prefix.pch"; sourceTree = "<group>"; };
 		D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		D7D49CE94F44784ACF8F06793704B653 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
 		E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E1A4A299F5B26CFE5729CF72BFD38111 /* UITextView+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+FixScreenFont.h"; sourceTree = "<group>"; };
 		E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		E3EEF429ED002DE8D8C8455990EFB88C /* UIView+Float.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Float.m"; path = "View/UIView+Float.m"; sourceTree = "<group>"; };
-		E7F0D045F95AEAB48648DACC16010A70 /* NSLayoutConstraint+BSIBDesignable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+BSIBDesignable.m"; path = "FixScreen/NSLayoutConstraint+BSIBDesignable.m"; sourceTree = "<group>"; };
+		E65FC5E21AB14155C85C9960563E1E18 /* NSLayoutConstraint+BSIBDesignable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+BSIBDesignable.h"; sourceTree = "<group>"; };
+		E6D547F49043D15EF353A4F1958E6719 /* UIView+Float.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Float.m"; sourceTree = "<group>"; };
+		EC5F28B8ABCA59EAB14D27B0903A4508 /* UITextField+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FixScreenFont.m"; sourceTree = "<group>"; };
+		EEF80596A32C53C5DC250C3AA6B58571 /* UITextField+FixScreenFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+FixScreenFont.h"; sourceTree = "<group>"; };
+		EF4EE0E02473922659810A5570C3FE8E /* FSCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCommonKit-Info.plist"; sourceTree = "<group>"; };
 		F12DFC0A03BF8C333E5BACA074FA6EC1 /* FSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCommonKit.framework; path = FSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F659BA840BFDC129E4D67E43CB08940E /* UITextField+FixScreenFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FixScreenFont.m"; path = "FixScreen/UITextField+FixScreenFont.m"; sourceTree = "<group>"; };
+		F8FB34EE15B58C5544F068242F67603D /* FSCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCommonKit.modulemap; sourceTree = "<group>"; };
 		FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +197,7 @@
 		03EEC30EA76687875106969C78E2253F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				168DB5A98384290C7306CF346A241786 /* FSCommonKit */,
+				7BEFB308392230A9C734A5A433774AEB /* FSCommonKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -208,21 +209,6 @@
 				536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		168DB5A98384290C7306CF346A241786 /* FSCommonKit */ = {
-			isa = PBXGroup;
-			children = (
-				750245F9B78EFC43C4DC5FFA10905091 /* FSCommonKit.h */,
-				87A5A9D3F476260BC3031181FB7292F0 /* Color */,
-				E479A124F60E5652916DB8E67479875C /* FixScreen */,
-				C688347A86D19A35057ED57248D85490 /* March */,
-				DE0648D737C1EEB9372C00A0350EE719 /* Pod */,
-				4582CC0CDD3C1AD33D6929EE78EA994C /* Support Files */,
-				B57011F739B7E089086CD60765D3E71D /* View */,
-			);
-			name = FSCommonKit;
-			path = ../../FSCommonKit;
 			sourceTree = "<group>";
 		};
 		1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */ = {
@@ -240,19 +226,14 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		4582CC0CDD3C1AD33D6929EE78EA994C /* Support Files */ = {
+		3D1D22DD55CF4D3E6FC2CC101169B05B /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				032361D8DFC39C5BB227196DC8A63F51 /* FSCommonKit.modulemap */,
-				0283AD4F56E7FC0C0BB060836A218383 /* FSCommonKit-dummy.m */,
-				D4D5766C415150A2C7D44C1A4E63DAB9 /* FSCommonKit-Info.plist */,
-				D639B709C0C4438A2B0FDCC55CDE1614 /* FSCommonKit-prefix.pch */,
-				5E3B532D3C1E78CD4492D1832EF52A48 /* FSCommonKit-umbrella.h */,
-				8A6E1D6C4477EB67BDE87BFFDEAB1C04 /* FSCommonKit.debug.xcconfig */,
-				8A84807898E2D9F8AD7861AD1197EAC0 /* FSCommonKit.release.xcconfig */,
+				1B26135CE0BDBFD66E4EFB43BEE64BCD /* UIColor+Hex.h */,
+				0524ACFCC2423E01FC42A9A6CB77689C /* UIColor+Hex.m */,
 			);
-			name = "Support Files";
-			path = "../FSCommonKitDemo/Pods/Target Support Files/FSCommonKit";
+			name = Color;
+			path = FSCommonKit/Color;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -263,6 +244,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6211F45D74F0A2F1FC4FB4BE0C1A3291 /* FixScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E65FC5E21AB14155C85C9960563E1E18 /* NSLayoutConstraint+BSIBDesignable.h */,
+				36B1F8AF106AEB3D9E645C3F6B837DED /* NSLayoutConstraint+BSIBDesignable.m */,
+				3B33A7165B3A82C0740C45A279072E0A /* UIButton+FixScreenFont.h */,
+				0891EB727CF77AC6F38DF97C50F63B91 /* UIButton+FixScreenFont.m */,
+				2F4D0D85D4E3FF4568B231E34F7B2453 /* UILabel+FixScreenFont.h */,
+				4F9A16226F1A4B39BEA805D0F90D6BA8 /* UILabel+FixScreenFont.m */,
+				EEF80596A32C53C5DC250C3AA6B58571 /* UITextField+FixScreenFont.h */,
+				EC5F28B8ABCA59EAB14D27B0903A4508 /* UITextField+FixScreenFont.m */,
+				E1A4A299F5B26CFE5729CF72BFD38111 /* UITextView+FixScreenFont.h */,
+				56FB6AA68A2F34BA693B5235EDDD0333 /* UITextView+FixScreenFont.m */,
+			);
+			name = FixScreen;
+			path = FSCommonKit/FixScreen;
+			sourceTree = "<group>";
+		};
+		7BEFB308392230A9C734A5A433774AEB /* FSCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D759F76D623CB80E9BF0BBD64395BC8 /* FSCommonKit.h */,
+				3D1D22DD55CF4D3E6FC2CC101169B05B /* Color */,
+				6211F45D74F0A2F1FC4FB4BE0C1A3291 /* FixScreen */,
+				CB81342E5E617AF6DD002E1B3C874EAA /* March */,
+				BDE87612E47552EBA578CA4F47215D7F /* Pod */,
+				D536A16A262D8D613B76BCD1AF66481E /* Support Files */,
+				D640352B6C56C9CE28619D3B5D6F7A3F /* View */,
+			);
+			name = FSCommonKit;
+			path = ../../FSCommonKit;
+			sourceTree = "<group>";
+		};
 		7F9C13824D39A08118211E51F369F300 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,15 +284,6 @@
 				50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		87A5A9D3F476260BC3031181FB7292F0 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				8EE56D92A69975D914338ABB7000646F /* UIColor+Hex.h */,
-				916C74BB3102C30237E17419869C9342 /* UIColor+Hex.m */,
-			);
-			name = Color;
 			sourceTree = "<group>";
 		};
 		99D5CE518789123385F411168C77CE8E /* NSURLSession */ = {
@@ -291,15 +296,6 @@
 				087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		B57011F739B7E089086CD60765D3E71D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				575D0E2CEC5FB176A8C3054A15543C40 /* UIView+Float.h */,
-				E3EEF429ED002DE8D8C8455990EFB88C /* UIView+Float.m */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
@@ -327,12 +323,22 @@
 			path = "Target Support Files/Pods-FSCommonKitDemo";
 			sourceTree = "<group>";
 		};
-		C688347A86D19A35057ED57248D85490 /* March */ = {
+		BDE87612E47552EBA578CA4F47215D7F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7A3B9AD48603A9CAB788DF566CF7C113 /* FSGlobal.h */,
+				D7D49CE94F44784ACF8F06793704B653 /* FILE_LICENSE */,
+				7DC82FBF0F5D1D7BF483518EC01120ED /* FSCommonKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CB81342E5E617AF6DD002E1B3C874EAA /* March */ = {
+			isa = PBXGroup;
+			children = (
+				99A99870F080E42440420B5EC95FAFC3 /* FSGlobal.h */,
 			);
 			name = March;
+			path = FSCommonKit/March;
 			sourceTree = "<group>";
 		};
 		CC3001599D15ADC8E41FD8F3ABAFC81B /* UIKit */ = {
@@ -400,12 +406,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DE0648D737C1EEB9372C00A0350EE719 /* Pod */ = {
+		D536A16A262D8D613B76BCD1AF66481E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				161EB05420E1C450995150435DE76F17 /* FSCommonKit.podspec */,
+				F8FB34EE15B58C5544F068242F67603D /* FSCommonKit.modulemap */,
+				C62CC4B057032E4205F156A6E93E3CE4 /* FSCommonKit-dummy.m */,
+				EF4EE0E02473922659810A5570C3FE8E /* FSCommonKit-Info.plist */,
+				93E04F6A721A840637C60DBB4E6D128D /* FSCommonKit-prefix.pch */,
+				4F5D015A66CE5BD9C3CD33C74995380E /* FSCommonKit-umbrella.h */,
+				0BE7F8D0EFEB3F35B2CB6F0DC3FDBE82 /* FSCommonKit.debug.xcconfig */,
+				9187E65A5B6EC39580567CF216CAEB53 /* FSCommonKit.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../FSCommonKitDemo/Pods/Target Support Files/FSCommonKit";
+			sourceTree = "<group>";
+		};
+		D640352B6C56C9CE28619D3B5D6F7A3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78DFD442AA0C8B947F7576E418B38F01 /* UIView+Float.h */,
+				E6D547F49043D15EF353A4F1958E6719 /* UIView+Float.m */,
+			);
+			name = View;
+			path = FSCommonKit/View;
 			sourceTree = "<group>";
 		};
 		E2E0EE24165AA28A7713956B31CB033A /* Products */ = {
@@ -416,23 +439,6 @@
 				434B5B7B0ABFA782A9190A58073914DE /* Pods_FSCommonKitDemo.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E479A124F60E5652916DB8E67479875C /* FixScreen */ = {
-			isa = PBXGroup;
-			children = (
-				524A9EAFC69EC1F3CF8245FBA1BEF529 /* NSLayoutConstraint+BSIBDesignable.h */,
-				E7F0D045F95AEAB48648DACC16010A70 /* NSLayoutConstraint+BSIBDesignable.m */,
-				5328A7A627074CC0B65F51A3A44725E4 /* UIButton+FixScreenFont.h */,
-				94E17E7097159C0A113852F5BBF2D443 /* UIButton+FixScreenFont.m */,
-				C64F85BA4E797E8EEE12907F2C207B9A /* UILabel+FixScreenFont.h */,
-				74A05BA94F3C83677072D027828F408B /* UILabel+FixScreenFont.m */,
-				9330BF3020A5D86E4DBB95353B3823DE /* UITextField+FixScreenFont.h */,
-				F659BA840BFDC129E4D67E43CB08940E /* UITextField+FixScreenFont.m */,
-				6ACC1E45EE1F5F57056D0BFD0695F2D8 /* UITextView+FixScreenFont.h */,
-				92312A3B15F6F2ED76ADBEAF0D568914 /* UITextView+FixScreenFont.m */,
-			);
-			name = FixScreen;
 			sourceTree = "<group>";
 		};
 		F7B0C907F31D1F1746138475CA9C1023 /* AFNetworking */ = {
@@ -453,23 +459,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4148FEF692E40EB96FC0FAD9C838E2EA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50FAFE221CB7C03ED559F0BC9FC17A03 /* FSCommonKit-umbrella.h in Headers */,
-				EA5109813529D2B2D996DFB8F0C2BAD9 /* FSCommonKit.h in Headers */,
-				16F34CD3D543B9370EDFF3FF44E39B85 /* FSGlobal.h in Headers */,
-				85F7A74840C60B92B102818F5867EBAE /* NSLayoutConstraint+BSIBDesignable.h in Headers */,
-				442AFF713F6AA13324197B50454FF205 /* UIButton+FixScreenFont.h in Headers */,
-				F465C3E74AFB8E8153E5EF32CE3C7036 /* UIColor+Hex.h in Headers */,
-				46E703F09BF1ED2C5BD0F352A81CD767 /* UILabel+FixScreenFont.h in Headers */,
-				867BD5470441E178EF688B518FECA798 /* UITextField+FixScreenFont.h in Headers */,
-				4F890A06C819970F81D03E1B13C53F8D /* UITextView+FixScreenFont.h in Headers */,
-				C62D307E39A5EF589D1CDE5CB046A01B /* UIView+Float.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		702B670B44130CC6A5D03F608278539C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,6 +490,23 @@
 				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
 				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
 				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAFEF51012E25559E20D4D301285F50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F0D33DE75D07121C42F81A02E67FF2 /* FSCommonKit-umbrella.h in Headers */,
+				B5A96E5071F1D5D86C2BF19C2889AD4C /* FSCommonKit.h in Headers */,
+				7FEC5F96047F7CE22554358CDD29968D /* FSGlobal.h in Headers */,
+				6B79740DAA58F6A66DA67D6D593943C4 /* NSLayoutConstraint+BSIBDesignable.h in Headers */,
+				502425779F147E36D0BC9DB922CE4B44 /* UIButton+FixScreenFont.h in Headers */,
+				CEBCB502E3B587D7A695E662D595212E /* UIColor+Hex.h in Headers */,
+				B162894B0AD84ACE556CA5C4CD25D383 /* UILabel+FixScreenFont.h in Headers */,
+				09A1DE062EA1B1268A816F207E1EABB7 /* UITextField+FixScreenFont.h in Headers */,
+				C909EB40C7B98E163D292FA640C23F88 /* UITextView+FixScreenFont.h in Headers */,
+				21C2EE3E034823EF87943348F7311130 /* UIView+Float.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,8 +543,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				6A4D214CF8B30DC8C54FED527AA461E1 /* PBXTargetDependency */,
-				4AC2173650A9AFC6478142D001030CFD /* PBXTargetDependency */,
+				B0DDCC0FF37AD077086B0BE13BD0F276 /* PBXTargetDependency */,
+				C1F999D2B61664A32FD451FE75BD6D07 /* PBXTargetDependency */,
 			);
 			name = "Pods-FSCommonKitDemo";
 			productName = "Pods-FSCommonKitDemo";
@@ -549,8 +555,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DFED263CA340163072DA30189A2E4B /* Build configuration list for PBXNativeTarget "FSCommonKit" */;
 			buildPhases = (
-				4148FEF692E40EB96FC0FAD9C838E2EA /* Headers */,
-				DAC505B09BA9575A86B91955B6AC10BD /* Sources */,
+				DBAFEF51012E25559E20D4D301285F50 /* Headers */,
+				649A65E2403E183D80ED46FDEB1FD7AD /* Sources */,
 				B021692053DAC659D188F8D76A62379B /* Frameworks */,
 				6CAB715474F306C1ED38A7AE8E1D9407 /* Resources */,
 			);
@@ -617,26 +623,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		649A65E2403E183D80ED46FDEB1FD7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BBAF7CE93CEC34D379FD3FED80BE92 /* FSCommonKit-dummy.m in Sources */,
+				61616674F901EA34266AFD3C6C68DAA8 /* NSLayoutConstraint+BSIBDesignable.m in Sources */,
+				EDA3243D94EB83EBFDAB661D0534A0BF /* UIButton+FixScreenFont.m in Sources */,
+				5315957A8221E1C74D8BA95FD2712F30 /* UIColor+Hex.m in Sources */,
+				78A58AD5070D5BB27AF95F3F5ABAFE0F /* UILabel+FixScreenFont.m in Sources */,
+				2942E048B4963CFE54A30EFF58720AB9 /* UITextField+FixScreenFont.m in Sources */,
+				1907C523E9F1D07CC62E7F11FBF3277A /* UITextView+FixScreenFont.m in Sources */,
+				672CAADDD8CC05ECC7B19BE0D5C7E2DB /* UIView+Float.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68296A1E6FAA2FF84BEAA0909ADAF98D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1142DF0D5D9BF52E0FA8ED7A4ED4ABE8 /* Pods-FSCommonKitDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAC505B09BA9575A86B91955B6AC10BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA3488EC878C915F6603602F9A6A7533 /* FSCommonKit-dummy.m in Sources */,
-				C390D8B198C2E9B58CBEC9D0DDEA9BF8 /* NSLayoutConstraint+BSIBDesignable.m in Sources */,
-				F74DAD967499AA50D7925A5DA7DFC481 /* UIButton+FixScreenFont.m in Sources */,
-				936F8CE3464BA409C30E9E3012E777B7 /* UIColor+Hex.m in Sources */,
-				54847A5824083E01390A5BE1478C7B5A /* UILabel+FixScreenFont.m in Sources */,
-				91A444FF2335915A61258FE55D9944E5 /* UITextField+FixScreenFont.m in Sources */,
-				592425272E3EC993280618EF34057397 /* UITextView+FixScreenFont.m in Sources */,
-				C56C490ACE5A8470D5655C6170509CF0 /* UIView+Float.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,24 +672,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4AC2173650A9AFC6478142D001030CFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSCommonKit;
-			target = D46FE75CA13B73AB1324A909BEE48A00 /* FSCommonKit */;
-			targetProxy = B407B5D270C115EA95966A988D03F516 /* PBXContainerItemProxy */;
-		};
-		6A4D214CF8B30DC8C54FED527AA461E1 /* PBXTargetDependency */ = {
+		B0DDCC0FF37AD077086B0BE13BD0F276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 4A6C0EED8F88DEB22BC143A99B6BD4A6 /* PBXContainerItemProxy */;
+			targetProxy = 159A5ACABA10599B27C3486B8311E95F /* PBXContainerItemProxy */;
+		};
+		C1F999D2B61664A32FD451FE75BD6D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCommonKit;
+			target = D46FE75CA13B73AB1324A909BEE48A00 /* FSCommonKit */;
+			targetProxy = EABB623D3BFEC8FB81685F00DE1A5F93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		17F871A58EA81687554B9272D648F7AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A84807898E2D9F8AD7861AD1197EAC0 /* FSCommonKit.release.xcconfig */;
+			baseConfigurationReference = 9187E65A5B6EC39580567CF216CAEB53 /* FSCommonKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -985,7 +991,7 @@
 		};
 		D2D915041680896F8C1307880FF1933F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A6E1D6C4477EB67BDE87BFFDEAB1C04 /* FSCommonKit.debug.xcconfig */;
+			baseConfigurationReference = 0BE7F8D0EFEB3F35B2CB6F0DC3FDBE82 /* FSCommonKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
