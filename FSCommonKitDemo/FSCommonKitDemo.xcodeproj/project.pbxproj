@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,7 +61,6 @@
 				A66514E2D97E57C41AAC36A8 /* Pods-FSCommonKitDemo.debug.xcconfig */,
 				95BF1388891AA214D77013BA /* Pods-FSCommonKitDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
