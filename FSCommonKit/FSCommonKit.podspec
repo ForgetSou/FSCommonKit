@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'FSCommonKit'
-    s.version = '1.0.1'
+  s.version      = "1.0.0"
     s.platform = :ios, '9.0'
     s.license = 'ForgetSou'
     s.homepage = 'https://github.com/ForgetSou/FSCommonKit'
@@ -12,19 +12,19 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-    s.source_files = 'FSCommonKit.h'
+    s.source_files = 'FSCommonKit/FSCommonKit.h'
     
     s.subspec 'FixScreen' do |ss|
-       ss.source_files = 'FixScreen/*.{h,m}'
+       ss.source_files = 'FSCommonKit/FixScreen/*.{h,m}'
     end
     s.subspec 'March' do |ss|
-       ss.source_files = 'March/*.{h,m}'
+       ss.source_files = 'FSCommonKit/March/*.{h,m}'
     end
     s.subspec 'View' do |ss|
-       ss.source_files = 'View/*.{h,m}'
+       ss.source_files = 'FSCommonKit/View/*.{h,m}'
     end
     s.subspec 'Color' do |ss|
-       ss.source_files = 'Color/*.{h,m}'
+       ss.source_files = 'FSCommonKit/Color/*.{h,m}'
     end
     
 end
