@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/ForgetSou/FSCommonKit"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
   s.author       = "ForgetSou"
 
   s.platform     = :ios, "9.0"
