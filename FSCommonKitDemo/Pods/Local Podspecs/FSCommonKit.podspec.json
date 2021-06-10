@@ -16,23 +16,23 @@
   "summary": "common tool",
   "description": "ForgetSou CommonKit common tool, eg: device system color fit screen",
   "requires_arc": true,
-  "source_files": "FSCommonKit/FSCommonKit.h",
+  "source_files": "FSCommonKit.h",
   "subspecs": [
     {
       "name": "FixScreen",
-      "source_files": "FSCommonKit/FixScreen/*.{h,m}"
+      "source_files": "FixScreen/*.{h,m}"
     },
     {
       "name": "March",
-      "source_files": "FSCommonKit/March/*.{h,m}"
+      "source_files": "March/*.{h,m}"
     },
     {
       "name": "View",
-      "source_files": "FSCommonKit/View/*.{h,m}"
+      "source_files": "View/*.{h,m}"
     },
     {
       "name": "Color",
-      "source_files": "FSCommonKit/Color/*.{h,m}"
+      "source_files": "Color/*.{h,m}"
     }
   ]
 }
