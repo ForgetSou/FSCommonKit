@@ -1,30 +1,26 @@
+
 Pod::Spec.new do |s|
 
-    s.name = 'FSCommonKit'
+  s.version      = "1.0.2"
   s.version      = "1.0.1"
-    s.platform = :ios, '9.0'
-    s.license = 'ForgetSou'
-    s.homepage = 'https://github.com/ForgetSou/FSCommonKit'
-    s.author = { 'ForgetSou' => 'johnvertios@gmail.com' }
-    s.source = { :git => 'https://github.com/ForgetSou/FSCommonKit.git', :tag => s.version }
-    s.summary = 'common tool'
-    s.description = 'ForgetSou CommonKit common tool, eg: device system color fit screen'
+  s.summary      = "common tool."
 
-    s.requires_arc = true
+  s.description  = <<-DESC
+                    ForgetSou CommonKit common tool, eg: device system color fit screen
+                   DESC
 
-    s.source_files = 'FSCommonKit.h'
-    
-    s.subspec 'FixScreen' do |ss|
-       ss.source_files = 'FixScreen/*.{h,m}'
-    end
-    s.subspec 'March' do |ss|
-       ss.source_files = 'March/*.{h,m}'
-    end
-    s.subspec 'View' do |ss|
-       ss.source_files = 'View/*.{h,m}'
-    end
-    s.subspec 'Color' do |ss|
-       ss.source_files = 'Color/*.{h,m}'
-    end
-    
+  s.homepage     = "https://github.com/ForgetSou/FSCommonKit"
+
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
+  s.author       = "ForgetSou"
+
+  s.platform     = :ios, "9.0"
+
+  s.source       = { :git => "https://github.com/ForgetSou/FSCommonKit.git", :tag => s.version.to_s }
+
+  s.source_files  = "FSCommonKit/**/*.{h,m}"
+  
+  s.requires_arc = true
+  
 end
